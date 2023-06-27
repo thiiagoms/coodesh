@@ -1,9 +1,9 @@
 <?php
 
-namespace Coodesh;
+namespace Controllers\Coodesh;
 
+use Illuminate\Http\{Response};
 use Tests\TestCase;
-use Illuminate\Http\{JsonResponse, Response};
 
 class CoodeshControllerTest extends TestCase
 {
@@ -12,7 +12,7 @@ class CoodeshControllerTest extends TestCase
      *
      * @return void
      */
-    public function test_the_application_returns_a_successful_response(): void
+    public function test_coodesh_get_endpoint(): void
     {
         $response = $this->get('/api');
 
