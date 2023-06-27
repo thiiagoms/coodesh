@@ -9,6 +9,8 @@ class CoodeshControllerTest extends TestCase
 {
     /**
      * Default api root path test.
+     *
+     * @return void
      */
     public function test_the_application_returns_a_successful_response(): void
     {
